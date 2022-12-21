@@ -1,0 +1,111 @@
+﻿*{
+    margin:0;
+    
+}
+body {
+    background-color:white; 
+    font-family: Nunito;
+    
+}
+#layout {
+    display: grid;
+    grid-template-rows: 20px 50px 160px 150px 160px 150px 160px 150px 40px; 
+    grid-template-columns: 1fr 50px 50px 60px 150px 160px 150px 80px 80px 1fr;
+    /*grid-template-areas:
+        "space space space space space space space space space space"
+        "space profile space heading heading heading heading heading space space"
+        "space space space space space space space space space space"
+        "space nof nof nof space inventory space cai cai space"
+        "space space space space space space space space space space"
+        "space si si si space space space space space space"*/
+}
+/* #reeceesicon{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 11;
+    justify-self:stretch;
+    background: rgb(166,55,116);
+    background: linear-gradient(90deg, rgba(166,55,116,1) 100%, rgba(255,0,156,1) 100%);
+} */
+#usericon {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    /* background: rgb(144,233,160);
+    background: linear-gradient(-30deg, rgba(144,233,160,1) 50%, rgba(83,182,241,1) 97%); */
+    /* box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.15); */
+}
+#pageheading {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 9;
+    text-align: center;
+    font-size: 50px;
+}
+#numberofitems {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    
+}
+#inventorylink {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 6;
+    grid-column-end: 7;
+
+}
+#createanitem {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 8;
+    grid-column-end: 10;
+}
+#stockitem {
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 2;
+    grid-column-end: 5; 
+    
+}
+#edititem{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 6;
+    grid-column-end: 7; 
+    
+    
+}
+#trackitem{
+    grid-row-start: 6;
+    grid-row-end: 7;
+    grid-column-start: 8;
+    grid-column-end: 10; 
+
+}
+#deleteitem{
+    grid-row-start: 8;
+    grid-row-end: 9;
+    grid-column-start: 2;
+    grid-column-end: 5; 
+}
+#nofspan {
+    font-size: 55px;
+}
+.subhead{
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 20px;
+ }
+ .sectionclass{
+    text-align: center;
+    font-weight: bold;
+    border-radius: 14px;
+    box-shadow: 0px 16px 60px rgba(0, 0, 0, 0.15);
+    background: rgb(144,233,160);
+    background: linear-gradient(-30deg, rgba(144,233,160,1) 50%, rgba(83,182,241,1) 97%);
+ }
